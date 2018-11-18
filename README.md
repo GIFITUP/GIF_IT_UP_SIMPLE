@@ -1,2 +1,2 @@
-# gifitup.github.io
-GIF IT UP! Webpage
+# gifitupsimple.github.io
+GIF ONLY WEBSITE
