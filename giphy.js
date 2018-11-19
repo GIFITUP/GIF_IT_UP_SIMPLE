@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	
 	request.onload = function() {
 		if (request.status >= 200 && request.status < 400){
-			data = JSON.parse(request.responseText).data.images.fixed_width_small.url;
+			data = JSON.parse(request.responseText).data.images.fixed_width.url;
 			console.log(data);
 			document.getElementById("giphyme").innerHTML = '<img src = "'+data+'"  title="GIF via Giphy" alt="check_image" style="width:100vw;height:100vh" align="left">';
 		} else {
